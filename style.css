@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(53, 53, 71);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     color: aliceblue;
     padding: 40px;
@@ -13,10 +13,11 @@ header{
 }
 body{ 
     height: 100vh;
-    background-image: url(img/R.jpg) ;
+    background-image: url() ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;~
+    
 }
 h2{
     font-size: 40px;
@@ -25,25 +26,46 @@ button{
     background-color: red;
 }
 .imagem{ 
-    border-radius: 50%;
-    width: 150px;
+    width: 300px;
     
     
 }
 #fotos{
-    display: flex;
-    justify-content: space-around;
+    display: ;
 }
-#fotosseparadas{
+#fotosseparadasdireita{
     color: wheat;
     font-family: Arial, Helvetica, sans-serif;
     font-style: inherit;
-}
-#fotosseparadas h3{
-    margin: 0px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(97, 97, 97);
+    align-items: center;
+    margin-bottom: 10px;
+    
     
 }
+#fotosseparadasesquerda{
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: rgb(150, 150, 150);
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+#fotosseparadasesquerda h3{
+    font-size: 50px;
+    padding-right: 300px;
+}
+#fotosseparadasdireita h3{
+    font-size: 50px;
+    padding-left: 300px;
+}
+
 .navegacao{
     display: flex;
     justify-content: space-around;
@@ -64,4 +86,11 @@ button{
     list-style: none;
     text-decoration: none;
     font-size: 30px;
+}
+.preço{
+    font-size: 50px;
+    color:rgb(255, 145, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: ;
 }
