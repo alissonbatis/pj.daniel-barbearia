@@ -108,7 +108,7 @@ h2{
 }
 .serviços{
     color: azure;
-    background-color:rgba(77, 77, 77, 0.5);
+    background-color:rgba(77, 77, 77, 0.671);
     height: 500px;
     width: 400px;
     padding: 20px;
@@ -125,14 +125,14 @@ h2{
 
 }
 .blocos{
-    background-color: rgba(207, 207, 207, 0.651);
     color: rgb(255, 255, 255);
     display: block;
     width: 150px;
     height: 150px;
     padding: 5px;
     margin: 5px;
-    border-radius: 10%;
+    border: 3px solid white;
+    background-color: rgba(2, 2, 2, 0.514);
 }
 .inspiraçoes{
     text-align: center;
