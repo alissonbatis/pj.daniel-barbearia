@@ -18,41 +18,104 @@
                 <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Agendar</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Nos avalie!</a></li>
             </ul>
         </nav>
     </header>
     <p class="preço">Cortes de cabelo a partir de 15R$</p>
     
-    <div id="fotos">
-        <div id="fotosseparadasdireita">
-            <h3>Militar</h3>
-            <img src="imagem/corte curto militar homem.jpg" alt="corte militar" class="imagem">
-            
-        </div>
-        <div id="fotosseparadasesquerda">
-            
-            <img src="imagem/20 Stylish Low Fade Haircuts for Men.jpg" alt="low fade" class="imagem">
-            <h3>Low fade</h3>
-            
-        </div>
-        <div id="fotosseparadasdireita">
-            <h3>Mullet</h3>
-            <img src="imagem/mullet.png" alt="" class="imagem">
-            
-        </div>
-        <div id="fotosseparadasesquerda">
-            <img src="imagem/baixados.jpg" alt="" class="imagem">
-            <h3>Americano</h3>
-            
-        </div>
-        <div id="fotosseparadasdireita">
-            <h3>Macho alfa</h3>
-            <img src="imagem/Ugly Hair Cuts Black Men.jpg" alt="" class="imagem">
-            
+    <div class = "principal">
+        <div class="serviços">
+            <h1>Serviços</h1>
+            <div id="divblocos">
+                <div class="blocos">
+                    <h3>Corte de cabelo </h3>
+                    <p> A partir de 15R$</p>
+                </div>
+                <div class="blocos">
+                    <h3>Barba</h3>
+                    <p>Apenas 10R$</p>
+                </div class="blocos">
+                <div class="blocos">
+                    <h3>Sobrancelha</h3>
+                    <p>Apenas 5R$</p>
+                </div>
+                <div class="blocos">
+                    <h3>Hidratação</h3>
+                    <p>Apenas 5R$</p>
+
+                </div>
+            </div>
         </div>
     </div>
-    <button id="meubotao">Quero cortar meu cabelo!</button>
+
+    <div class="informaçoes">
+        <div class="informaçoesblocos">
+            <div>
+                <h2>Informações</h2>
+            </div>
+            <div class="informaçoesblocosseparados">
+                <img src="icons/marker.png" alt="icone de Localização" class="icon">
+                <div>
+                    <h3>Localização </h3>
+                    <p>R. Praia de Mucuripe <br>389</p>
+                </div>
+            </div>
+            <div class="informaçoesblocosseparados" > 
+                <img src="icons/clock.png" alt="relogio icone" class="icon">
+                <div>
+                    <h3>Horários</h3>
+                    <p>De 13:00 às 20:00</p>
+                </div>
+            </div>
+            <div class="informaçoesblocosseparados">
+                <img src="icons/calendar.png" alt="calendar icon" class="icon">
+                <div>
+                    <h3>Dias</h3>
+                    <p>Terça à Domingo</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <h1>teste</h1>
+
+    <div class="inspiraçoes">
+        <h1>Inspirações pra seu corte</h1>
+            <div id="fotosseparadas">
+        
+                <img src="imagem/corte curto militar homem.jpg" alt="corte militar" class="imagem">
+                <img src="imagem/20 Stylish Low Fade Haircuts for Men.jpg" alt="low fade" class="imagem">
+                <img src="imagem/mullett.png" alt="" class="imagem">
+                <img src="imagem/baixados.jpg" alt="" class="imagem">
+        
+            </div>
+    </div>
+    <h1>Nossas redes Sociais</h1>
+    
+    <div >
+        <h1>Nos avalie!</h1>
+        <form action="" class="formulario">
+            <div>
+                <label for="Nome">Nome:</label>
+                <input type="text" id="Nome" name="nome">
+            </div>
+            <div>
+                <label for="Numero">Número:</label>
+                <input type="tel" id="celular" name="celular" >
+            </div>
+            <div>
+                <label for="sugestao">Avalie:</label>
+                <select name="avaliaçao" id="avaliaçao">
+                    <option value="Muito Bom">Muito Bom</option>
+                    <option value="Bom">Bom</option>
+                    <option value="Ruim">Ruim</option>
+                    <option value="Muito Ruim">Muito Ruim</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Enviar Avaliação" >
+            </div>
+        </form>
+    </div>
+    </div>
 </body>
 </html>

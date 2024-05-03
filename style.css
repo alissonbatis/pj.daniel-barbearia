@@ -1,3 +1,6 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 header{
     background-color: rgb(0, 0, 0);
     text-align: center;
@@ -22,49 +25,16 @@ body{
 h2{
     font-size: 40px;
 }
-button{
-    background-color: red;
-}
 .imagem{ 
     width: 300px;
     
-    
 }
-#fotos{
-    display: ;
-}
-#fotosseparadasdireita{
-    color: wheat;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: inherit;
+
+#fotosseparadas{
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(97, 97, 97);
-    align-items: center;
-    margin-bottom: 10px;
-    
-    
+    background-color:black;
 }
-#fotosseparadasesquerda{
-    color: wheat;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: inherit;
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    background-color: rgb(150, 150, 150);
-    align-items: center;
-    margin-bottom: 10px;
-    
-}
-#fotosseparadasesquerda h3{
-    font-size: 50px;
-    padding-right: 300px;
-}
-#fotosseparadasdireita h3{
-    font-size: 50px;
-    padding-left: 300px;
-}
+
 
 .navegacao{
     display: flex;
@@ -93,4 +63,87 @@ button{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     background-color: ;
+}
+.principal{
+    background-image: url(imagem/Barber.jpg);
+    background-size: cover;
+    background-position: center;
+    height:600px;
+    display: flex;
+    justify-content: right;
+    
+}
+.informaçoes{
+    background-image: url(imagem/R.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    height: 600px;
+    display: flex;
+    justify-content: left;
+
+}
+.informaçoesblocos{
+    background-color:rgba(255, 255, 255, 0.678) ;
+    padding: 20px;
+    margin: 20px;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+
+
+}
+.informaçoesblocosseparados{
+
+    width: 400px;
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.serviços{
+    color: azure;
+    background-color:rgba(77, 77, 77, 0.5);
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    margin:20px;
+    text-align: center;
+
+}
+#divblocos{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+}
+.blocos{
+    background-color: rgba(207, 207, 207, 0.651);
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10%;
+}
+.inspiraçoes{
+    text-align: center;
+}
+.formulario{
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
 }
