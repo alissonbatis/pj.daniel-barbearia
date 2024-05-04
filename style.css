@@ -170,3 +170,19 @@ h2{
 #sobre p {
     font-size: x-large;
 }
+.redes{
+    background-color: rgb(141, 141, 141);
+}
+#logoinsta{
+    width:200px;
+}
+#logowhatsapp{
+    width:200px;
+}
+.redesblocos{
+    display: flex;
+    justify-content: space-around;
+}
+.blocoinstazap{
+    text-align: center;
+}
