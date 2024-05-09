@@ -174,15 +174,24 @@ h2{
     background-color: rgb(141, 141, 141);
 }
 #logoinsta{
-    width:200px;
+    width: 120px;
+    
+}
+#logotiktok{
+    width: 10px;
+
 }
 #logowhatsapp{
-    width:200px;
+    width:130px;
+
 }
 .redesblocos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .blocoinstazap{
+    text-align: center;
+}
+.blocotiktok{
     text-align: center;
 }
