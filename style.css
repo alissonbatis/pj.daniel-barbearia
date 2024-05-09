@@ -195,3 +195,23 @@ h2{
 .blocotiktok{
     text-align: center;
 }
+
+/* Estilos para o botão */
+.instagram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #195f28;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 150px;
+    
+}
+
+/* Efeito de hover */
+.instagram-button:hover {
+    background-color: #194b24;
+}
