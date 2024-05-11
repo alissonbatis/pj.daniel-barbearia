@@ -215,3 +215,36 @@ h2{
 .instagram-button:hover {
     background-color: #194b24;
 }
+
+.blocoagendamento{
+    background-color: rgb(124, 124, 124);
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+.blocoagendamentotextos{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: #ffffff;
+    font-size: xx-large;
+    text-align: center;
+    padding: 80px;
+}
+.blocoagendamentotextos input {
+    width: 300px;
+    display: flex;
+}
+#botaoenviar{
+    width: 120px;
+    padding: 7px;
+    margin: 20px;
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+}
