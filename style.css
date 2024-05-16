@@ -172,6 +172,7 @@ h2{
 }
 .redes{
     background-color: rgb(141, 141, 141);
+    margin-top:50px ;
 }
 #logoinsta{
     width: 120px;
@@ -191,34 +192,50 @@ h2{
 }
 .blocoinstazap{
     text-align: center;
+    width: 33.33%;
+    padding-bottom: 50px;
+    
 }
-.blocotiktok{
-    text-align: center;
+#boxinsta{
+    background-color: rgb(56, 56, 56);
+}
+#boxzap{
+    background-color: rgb(105, 105, 105) ;
+}
+#boxtiktok{
+}
+
+.blocoinstazap > h2 > a {
+    text-decoration: none;
+    color: black;
+    
 }
 
 /* Estilos para o botão */
 .instagram-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #195f28;
+    background-color: #195f2800;
     color: #fff;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    text-decoration: none;
-    width: 150px;
+    text-decoration: none
+    
+    
+    
     
 }
 
 /* Efeito de hover */
 .instagram-button:hover {
-    background-color: #194b24;
+    background-color: #194b2400;
 }
 
 .blocoagendamento{
     background-color: rgb(124, 124, 124);
-    background-image: url();
+    background-image: url(imagem/Barber.jpg);
     background-position: center;
     background-size: cover;
     height: 800px;
@@ -247,4 +264,7 @@ h2{
     margin-left: 90px;
     display: flex;
     justify-content: center;
+}
+#imageminsta{
+    width: 100px;
 }
