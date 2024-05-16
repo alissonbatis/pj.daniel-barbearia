@@ -40,6 +40,7 @@ h2{
     width: 200px;
     margin: 20px;
     border-radius: 10%;
+    animation: ;
 
 
     
@@ -166,6 +167,9 @@ h2{
 #sobre{
     background-color: rgb(190, 190, 190);
     padding: 30px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    border: 2px solid;
 }
 #sobre p {
     font-size: x-large;
@@ -194,15 +198,16 @@ h2{
     text-align: center;
     width: 33.33%;
     padding-bottom: 50px;
-    
 }
 #boxinsta{
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(122, 122, 122);
 }
 #boxzap{
-    background-color: rgb(105, 105, 105) ;
+    background-color: rgb(134, 134, 134) ;
+    ;
 }
 #boxtiktok{
+    
 }
 
 .blocoinstazap > h2 > a {
