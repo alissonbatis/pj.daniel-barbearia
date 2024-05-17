@@ -40,12 +40,14 @@ h2{
     width: 200px;
     margin: 20px;
     border-radius: 10%;
-    animation: ;
-
-
-    
+    transition: 0.5s;
+       
 }
 
+.imagem:hover{
+    transform: scale(1.1);
+
+} 
 #fotosseparadas{
     display: flex;
     background-color:rgb(255, 255, 255);
